@@ -1,10 +1,74 @@
 <!DOCTYPE html> 
+<html>
 
 <head>
+	<link href="style.css" rel="stylesheet"> 
+	<title>About Dustin</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js" type="text/javascript"><!--mce:0--></script>
+	<script> 
+		$(document).ready(function(){
+			var t = setInterval(function(){
+				$("#carousel ul").animate({marginLeft:-480},1000,function(){$(this).find("li:last").after($(this).find("li:first"));$(this).css({marginLeft:0});
+			})
+		},5000);
+		});
+	</script>
+
 </head>
 
 <body>
-	<h1>Hello Dustin</h1>
-	<p>bye</p> 
+<header>
+	<h2>In the life of..</h2>
+	<h1>Dustin Yu</h1> 
+<div class="bridge">
+	<img src="http://i.imgur.com/2rtVV8q.jpg">
+	<figcaption>Golden Gate Bridge</figcaption> 
+</div>
+</header>
 
-</body> 
+<div id="carousel">
+<ul>
+	<li><img src="http://i.imgur.com/JuFc4K6.jpg"></li>
+	<li><img src="http://i.imgur.com/2qZuQNa.jpg"></li> 
+	<li><img src="http://i.imgur.com/KmXZRfQ.jpg"></li> 
+</ul>
+</div> 
+
+<div class="background">
+<h3>My Background</h3>
+<p>Born and raised in Southern California. I went to school at the University of California, Davis and studied Economics. Upon graduating I worked for a couple years in Los Angeles only to move to San Francisco in May 2013. Since then, I have been working in Accounting and Operations. On my offtime I enjoy:</p>
+<ul>
+	<li>Sports and Outdoor Activities</li>
+	<li>Exploring the Bay Area</li>
+	<li>Trying out new foods and experiencing different cultures</li>
+</ul>
+<h3>Experience with Web Development</h3>
+<p>Prior to coding in Dash, I have not had any experience with web development. I had the opportunity to dab my toes in some Python for a computer class back in college but that's as far as it goes. However, from completing the tutorials and creating this page, I have already learned a great amount and of the power to create that we have at our fingertips. However, I have and am running into some roadblocks including the following which I am working on</p>
+<ul>
+	<li>Positioning and Sizing Images</li>
+	<li>Coding in Javascript to create a carousel</li>
+	<li>Polishing this page to look pretty</li>
+</ul>
+</div>
+
+<div class="skydive">
+	<img src="http://i.imgur.com/ONb24kA.jpg" width="225" height="375">
+</div>
+
+
+<div class="contact">
+<h3>Contact Info</h3>
+<p> Dustin Yu <br /> San Francisco, CA <br /> P: 818.987.7898<br /> E: dustin520@gmail.com</p>
+</div>
+
+<div class="rock">
+	<img src="http://i.imgur.com/3Z6InDS.gif" width="70%" height=70%">
+	<figcaption>New Hobbies</figcaption> 
+</div>
+
+
+</body>
+
+
+</html> 

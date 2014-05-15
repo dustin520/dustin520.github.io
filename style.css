@@ -1,0 +1,88 @@
+header {
+	text-align: center; 
+	color: black;
+	}
+body {
+	background: url(http://bigbackground.com/wp-content/uploads/2013/07/cool-simple-backgrounds.jpg); 
+	background-size: cover;
+}
+.title {
+	text-align: center;
+}
+
+h1 {
+	margin-top: 15px;
+}
+
+h2 {
+	margin-top: 70px;
+}
+
+h3 {
+	text-align: center justify;
+}
+
+p {
+	text-align: center justify;
+}
+
+.bridge {
+	margin-top: -50px;
+	float: right;
+	text-align: center; 
+	padding-top: 15px; 
+}
+
+.skydive {
+	top: 50%;
+	left: 50%;
+	margin-top: -50px;
+}
+
+.rock {
+	max-width: 120px;
+	max-height: 200px;
+	text-align: center; 
+	margin-top: 10px;
+	margin-left: 150px;
+}
+
+.background {
+	padding: 10px 20px 10px 20px;
+	margin: 10px 50px 20px 100px;
+}
+
+.contact {
+	margin: 20px 0 20px 100px;
+	border: solid;
+	max-width: 200px; 
+	padding: 2px 5px 2px 5px;
+	text-align: center;
+}
+
+#carousel {
+	width: 480px;
+	margin: 0 auto;
+	overflow: hidden; /* to hide images apart from first */ 
+}
+	#carousel ul{
+		width: 1920px;
+		padding: 0;
+		margin: 0;
+	}
+
+	#carousel ul li{
+		width: 480px;
+		text-align: center;
+		height: 280px;
+		list-style: none;
+		float: left;
+		background: black;
+		margin: 10px auto;
+	}
+	#carousel ul li img{
+		max-height: 100%;
+		max-width: 100%;
+}
+
+
