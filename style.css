@@ -1,11 +1,13 @@
 nav {
 	font-weight: bold; 
 	font-size: 20px;
+	font-family: 'PT Sans', sans-serif; 
 	background: #000;
 	color: #000;
 	height: 50px;
 	text-align: right;
 	margin: 0px;
+	list-style-type: none; 	
 }
 
 nav img#icon { 
@@ -34,6 +36,7 @@ div#TRpic {
 
 figcaption {
 	font-weight: bold;
+	font-family: 'Dosis', sans-serif;
 }
 
 img#knob { 
@@ -50,7 +53,7 @@ img#knob {
 .intro {
 	position: relative;
 	left: 35px;
-}
+	}
 
 img#skydive { 
 	opacity: .85;
@@ -61,6 +64,8 @@ img#skydive {
 	left: 42%;
 	top: 15px;
 	margin-bottom: 20px; 
+	outline: 3px, solid, black;
+	border-radius: 10px;
 }
 article#background {
 	/*background: url(http://i.imgur.com/ONb24kA.jpg), #F2F2F2;*/
@@ -101,11 +106,17 @@ article#future {
 }
 
 div#contact {
-	border: 4px inset black;
+	border: 2px inset black;
 	max-width: 250px;
 	text-align: center; 
 	border-radius: 20px;
 	margin-top: 4px;
+}
+
+section#bottom {
+	position: relative;
+	left: 25px;
+	top: 45px;
 }
 
 img#profile {
@@ -143,6 +154,13 @@ h4 {
 
 p {
 	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+}
+
+li { 
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
 }
 
 footer {
@@ -157,8 +175,8 @@ footer {
 	overflow: hidden; /* to hide images apart from first */ 
 	float: right;
 	position: relative;
-	top: -350px;
-	right: 20%;
+	top: -280px;
+	right: 25%;
 }
 	#carousel ul{
 		width: 1920px;
